@@ -32,7 +32,9 @@ It aims to identify which features most strongly influence housing prices and ho
 - Implemented:
   - Linear Regression  
   - Decision Tree Regressor  
-  - Random Forest Regressor  
+  - Random Forest Regressor
+  - KNN
+  - SVM
 
 ### 3. **Evaluation Metrics**
 - Mean Absolute Error (MAE)
