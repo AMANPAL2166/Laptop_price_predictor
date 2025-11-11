@@ -15,10 +15,9 @@ It aims to identify which features most strongly influence housing prices and ho
 ---
 
 ## 🧩 Dataset
-- Source: [Kaggle Housing Dataset](https://www.kaggle.com/)  
-- Shape: `1460 rows × 81 columns`
-- Target Variable: `SalePrice`
-- Key Features: `OverallQual`, `GrLivArea`, `GarageCars`, `TotalBsmtSF`, etc.
+- Source: [Kaggle Housing Dataset]([https://www.kaggle.com/](https://www.kaggle.com/datasets/arnabchaki/laptop-price-prediction))  
+- Shape: `1303 rows × 12 columns`
+- Target Variable: ` Price`
 
 ---
 
@@ -43,11 +42,19 @@ It aims to identify which features most strongly influence housing prices and ho
 ---
 
 ## 📊 Results
-| Model | MAE | MSE | R² |
-|--------|------|------|----|
-| Linear Regression | 24500 | 1.2e9 | 0.81 |
-| Decision Tree | 21000 | 1.0e9 | 0.85 |
-| Random Forest | 18000 | 0.8e9 | 0.89 |
+| Model | MAE | R² |
+|--------| ------|----|
+| Linear Regression |  0.212 | 0.80 |
+| Decision Tree | 0.183 | 0.83 |
+| Random Forest |  0.159 | 0.88 |
+| Ridge Regression |  0.212 | 0.81 |
+| Lasso Regression |  0.213 | 0.80 |
+| KNN |  0.185 | 0.84 |
+| Decision Tree |  0.183 | 0.84 |
+| SVM |  0.212 | 0.78 |
+ 
+
+ 
 
 > Random Forest outperformed others due to ensemble learning and variance reduction.
 
@@ -66,12 +73,7 @@ This project highlights:
 - **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
 
 ---
-
-## 🔮 Future Work
-- Try Gradient Boosting & XGBoost models.  
-- Add hyperparameter optimization using GridSearchCV.  
-- Perform residual analysis for deeper error insights.
-
+ 
 ---
 
 ## 👨‍💻 Author
